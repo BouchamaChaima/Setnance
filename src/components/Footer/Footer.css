@@ -1,0 +1,147 @@
+.footer-container{
+  background: url("./WhatsApp Image 2023-03-21 at 15.56.06 (1).jpeg") no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  transition: all 0.2s ease-in-out;
+  /*color: #010c10;*/
+  /* background: rgb(206, 246, 248);*/
+  display: flex;
+  justify-content: center;
+  gap:2vw;
+  
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+  .main{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  .main span{
+      padding-right: 200px;
+  }
+  .second-side{
+      display: flex;
+      gap: 2vw;
+  }
+  .first-slide{
+      display: flex;
+      flex-direction: column;
+     
+      width: 30%;
+      margin-left: 10px;
+      
+  }
+  .first-slide h2{
+    text-transform: uppercase;
+}
+  .icons{
+      display: flex;
+      gap: 1vw;
+  }
+  .icons span{
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 30px;
+  }
+  .icons span:hover{
+    transform: scale(1.1);
+}
+  .spans{
+      display: flex;
+      flex-direction: column;
+      gap:10px;
+  }
+  h2{
+      margin-bottom: 20px;
+  }
+  div p{
+      font-size: calc(0.6rem + 0.4vw);
+  }
+  div div span{
+      font-size: calc(0.6rem + 0.4vw);
+  }
+  div h2{
+      font-size: 1.3rem;
+  }
+
+.dark{
+  background-color: red;
+}
+
+
+/*.footer-container {
+  background: url("./WhatsApp Image 2023-03-21 at 15.56.06 (1).jpeg") no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 2vw;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.footer-container .main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .main span {
+  padding-right: 200px;
+}
+.footer-container .first-slide {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 10px;
+}
+.footer-container .first-slide h2 {
+  text-transform: uppercase;
+}
+.footer-container .icons {
+  display: flex;
+  gap: 1vw;
+}
+.footer-container .icons span {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 30px;
+}
+.footer-container .icons span:hover {
+  transform: scale(1.1);
+}
+.footer-container .spans {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-container h2 {
+  margin-bottom: 20px;
+}
+.footer-container div p {
+  font-size: calc(0.5rem + 0.4vw);
+}
+.footer-container div div span {
+  font-size: 0.9rem;
+}
+.footer-container div h2 {
+  font-size: 1.3rem;
+}/*# sourceMappingURL=Footer.css.map *
+**/
+@media screen and (max-width: 768px) {
+  .footer-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-slide{
+    width: 95%;
+  }
+  .second-side{
+    display: flex;
+    gap: 2vw;
+  }
+  }
